@@ -95,12 +95,8 @@ class Bot(Client):
                 yield message
                 current += 1
 
+# ---------------- RUN BOT ----------------
 
-
-
-if __name__ == '__main__':
-    try:
-        loop.run_until_complete(start())
-    except KeyboardInterrupt:
-        logging.info('Service Stopped Bye 👋')
+if __name__ == "__main__":
+    Bot().run()
 
