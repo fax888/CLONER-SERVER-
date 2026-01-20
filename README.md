@@ -39,3 +39,6 @@ python3 bot.py
 </pre>
 </p>
 </details>
+
+
+𝐀𝐋𝐋 𝐈𝐒𝐒𝐔𝐄 𝐅𝐈𝐗𝐄𝐃 𝐅𝐀𝐗
