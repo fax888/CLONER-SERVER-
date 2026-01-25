@@ -2,6 +2,7 @@ import logging
 import logging.config
 from datetime import date, datetime
 import pytz
+import aiohttp
 
 
 from pyrogram import Client, __version__, types
