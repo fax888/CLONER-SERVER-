@@ -3,6 +3,7 @@ import logging.config
 from datetime import date, datetime
 import pytz
 
+
 from pyrogram import Client, __version__, types
 from pyrogram.raw.all import layer
 from pyrogram import utils as pyroutils
@@ -73,9 +74,7 @@ class Bot(Client):
         await super().stop()
         logging.info("Bot stopped successfully.")
 
-# ---------------- RUN ----------------
-if __name__ == '__main__':
-    try:
-        loop.run_until_complete(start())
-    except KeyboardInterrupt:
-        logging.info('Service Stopped Bye 👋')
+# ---------------- RUN BOT ----------------
+
+if __name__ == "__main__":
+    Bot().run()
