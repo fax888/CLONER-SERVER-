@@ -20,14 +20,14 @@ ADD_ME = ["https://telegra.ph/file/45991424ebfe111f195e4.jpg",
 @Client.on_message(filters.command(["check"]))
 async def help(client, message):
         buttons = [[
-            InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
+            InlineKeyboardButton('fιℓтєяѕ', callback_data='filters'),
+            InlineKeyboardButton('fιℓє ѕᴛᴏʀᴇ', callback_data='store_file')
         ], [
             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅs', callback_data='extra')
         ], [
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('вα¢к', callback_data='start'),
+            InlineKeyboardButton('ѕтαтυѕ', callback_data='stats')
         ]]    
         
         reply_markup = InlineKeyboardMarkup(buttons)
