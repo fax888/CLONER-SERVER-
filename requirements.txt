@@ -9,6 +9,10 @@ bs4
 git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
-aiohttp
 openai==0.25.0
 humanize
+cinemagoer
+heroku3
+pynewtonmath
+aiohttp
+
